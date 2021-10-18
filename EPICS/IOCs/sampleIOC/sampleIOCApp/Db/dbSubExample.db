@@ -1,0 +1,14 @@
+record(sub,"$(user):subExample")
+{
+    field(INAM,"mySubInit")
+    field(SNAM,"mySubProcess")
+    field(INPA,"$(user):aiExample CPP")
+}
+record(aSub,"$(user):aSubExample")
+{
+    field(INAM,"myAsubInit")
+    field(SNAM,"myAsubProcess")
+    field(FTA,"DOUBLE")
+    field(NOA,"10")
+    field(INPA,"$(user):compressExample CPP")
+}

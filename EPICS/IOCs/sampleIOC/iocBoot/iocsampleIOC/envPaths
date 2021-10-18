@@ -1,0 +1,3 @@
+epicsEnvSet("IOC","iocsampleIOC")
+epicsEnvSet("TOP","/home/epics/EPICS/IOCs/sampleIOC")
+epicsEnvSet("EPICS_BASE","/home/epics/EPICS/epics-base")

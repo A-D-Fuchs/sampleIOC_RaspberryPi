@@ -1,0 +1,9 @@
+SUPPORT=/home/epics/EPICS/support
+EPICS_BASE=/home/epics/EPICS/epics-base
+ASYN=$(SUPPORT)/asyn
+AUTOSAVE=$(SUPPORT)/autosave
+BUSY=$(SUPPORT)/busy
+SSCAN=$(SUPPORT)/sscan
+SNCSEQ=$(SUPPORT)/seq-2.2.8
+CALC=$(SUPPORT)/calc
+STREAM=$(SUPPORT)/StreamDevice

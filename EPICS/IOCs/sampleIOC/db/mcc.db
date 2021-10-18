@@ -1,0 +1,6 @@
+record(ai,"$(P)"){
+  field(DTYP,"$(D)")
+  field(DESC,"Read ananlog Mcc118, demo")
+  field(SCAN,"$(SCAN=Passive)")
+  field(INP,"$(C)")
+}
