@@ -1,0 +1,77 @@
+procserv (2.6.1-1) unstable; urgency=medium
+
+  * new upstream version
+  * d/control, d/compat: bump debhelper compatibility level to 9
+  * d/control: bump Standards-Version to 3.9.8 with no changes
+  * d/control: update Vcs-* and Homepage links
+  * d/watch: switch to Github URL
+  * d/source/format: switch to 3.0 (quilt)
+  * d/rules: switch on hardening=+all
+
+ -- Ralph Lange <ralph.lange@gmx.de>  Thu, 22 Sep 2016 11:58:17 -0400
+
+procserv (2.6.0-1) unstable; urgency=low
+  * new upstream version
+  * control: bumped Standards-Version to 3.9.3 with no changes,
+    fixed debhelper dependency, added libtelnet dependency
+  * copyright: changed to machine readable format, added libtelnet info
+  * rules: switched to using overrides
+
+ -- Ralph Lange <Ralph.Lange@gmx.de>  Fri, 13 Apr 2012 16:04:21 +0200
+
+procserv (2.5.1-1) unstable; urgency=low
+  * new upstream version
+  * copyright: corrected years
+  * control: bumped Standards-Version to 3.8.4 with no changes
+  * rules: changed from CDBS based rules to plain debhelper+dh
+
+ -- Ralph Lange <Ralph.Lange@bessy.de>  Wed, 24 Mar 2010 11:50:16 -0500
+
+procserv (2.5.0-5) unstable; urgency=low
+
+  * rules: build package in "." (default) to prevent CDBS from generating
+    strange warnings and running the configure script twice
+  * control: added Vcs-* entries pointing to the collab-maint repository
+  * Added a watch file pointing to the SourceForge download
+
+ -- Ralph Lange <Ralph.Lange@bessy.de>  Mon, 04 Jan 2010 16:19:35 -0500
+
+procserv (2.5.0-4) unstable; urgency=low
+
+  * control: package now Suggests: telnet
+  * removed .hg* stuff from package build
+
+ -- Ralph Lange <Ralph.Lange@bessy.de>  Thu, 31 Dec 2009 11:22:24 -0500
+
+procserv (2.5.0-3) unstable; urgency=low
+
+  * control: added ${misc:Depends} for debhelper
+
+ -- Ralph Lange <Ralph.Lange@bessy.de>  Wed, 30 Dec 2009 16:18:46 -0500
+
+procserv (2.5.0-2) unstable; urgency=low
+
+  * control: removed unused Depends, changed Section and Priority, updated
+    Description
+  * rules: simplified by adding extra argument to configure to change doc
+    location
+
+ -- Ralph Lange <Ralph.Lange@bessy.de>  Tue, 29 Dec 2009 15:12:46 -0500
+
+procserv (2.5.0-1) unstable; urgency=low
+
+  * New Upstream Version
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Tue, 15 Dec 2009 16:59:46 -0500
+
+procserv (2.4.1-1) unstable; urgency=low
+
+  * version bump
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Wed, 21 Oct 2009 12:11:32 -0400
+
+procserv (2.4.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Fri, 28 Aug 2009 11:10:45 -0400
